@@ -11,8 +11,11 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "canvas-datagrid": "^0.4.7",
     "pinia": "^2.2.4",
-    "vue": "^3.5.12"
+    "vue": "^3.5.12",
+    "x-data-spreadsheet": "^1.1.9",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.12.0",
@@ -21,6 +24,7 @@
     "@vue/eslint-config-prettier": "^10.0.0",
     "eslint": "^9.12.0",
     "eslint-plugin-vue": "^9.29.0",
+    "less": "^4.2.0",
     "prettier": "^3.3.3",
     "vite": "^5.4.8",
     "vite-plugin-vue-devtools": "^7.4.6"
